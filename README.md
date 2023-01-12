@@ -16,13 +16,13 @@ To run this pipeline, you will have to simply:
 
 * Run renv::restore() to install all the required libraries.
 
-⋅⋅⋅To install the package independently, run - `remotes::install_github("manasviponaka/cleanData")` in rstudio console
+      To install the package independently, run - `remotes::install_github("manasviponaka/cleanData")` in rstudio console
 
 
-⋅⋅⋅or Clone the repository by running `git clone git@github.com:manasviponaka/cleanData.git` 
+      or Clone the repository by running `git clone git@github.com:manasviponaka/cleanData.git` 
 
 
-*You should now restart your R session and then run the pipeline with `targets::tar_make()`
+* You should now restart your R session and then run the pipeline with `targets::tar_make()`
 
 
 You can take a look at the data by running:
