@@ -36,10 +36,10 @@ You can take a look at the outlier in a column charges by running:
 
 You can take a look at some plots tables by running:
 
-`targets::tar_read(ageVsCharges)
+```targets::tar_read(ageVsCharges)
 
 targets::tar_read(bmiVsCharges)
 
 targets::tar_read(outlier_boxplot)
 
-targets::tar_read(outlier_boxplot)`
+targets::tar_read(outlier_boxplot)```
