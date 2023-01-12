@@ -1,0 +1,17 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+ageVsCharges|stem|306638afbb15b333|4b7b7c98fe13cde9|6814f9aee91206b8|1439365180||t19369.4233871901s|79634a9257837d14|110381|rds|local|vector|||0.036||
+bmiVsCharges|stem|dc759a8a2415c677|cf29409f70d7609e|5cb2e0a6d431399b|-1116896338||t19369.4242329765s|d4e3e19b75f93da0|110384|rds|local|vector|||0.038||
+density_charges|stem|bb78380ffc68bb79|b019121ab412f77c|c87e6417e1e0caff|1260398656||t19369.5825953352s|7212149edb379ba1|114713|rds|local|vector|||0.012||
+density_charges_both|stem|6efb0b56a1f0705e|266db3f3a7fa3f4f|5aa3a1282b23443d|2107134906||t19369.5858241575s|cddc89224dfb14b0|29955|rds|local|vector|||0.286||
+density_charges_out|stem|0a1f5acfed0d79e5|b15e1ed333bb9aff|cf84e767369e8f00|-58917282||t19369.5825957622s|59ffb32f1f9f8f31|54239|rds|local|vector|||0.004||
+get_data|function|9485f4c75bb9d948|||||||||||||||
+get_outliers|function|42889e44b75192fc|||||||||||||||
+insurance_data|stem|7e1aa9680031b809|f0c78c8250679058|727f7cd3b46b9bba|653365152||t19369.4173444161s|a2c1e76aa25962e0|16609|rds|local|vector|||0.002||
+is_out_mad|function|bc915b03b3f2c955|||||||||||||||
+isnt_out_mad|function|c8838650451276dd|||||||||||||||
+outlier_bool_array|stem|9bc7daa5b6482f83|c03e4e4a0995ad62|97f8ce6dd2196713|1119725341||t19369.5989834979s|a72b4e607ecebf44|222|rds|local|vector|||0.001||
+outlier_boxplot|stem|9027a1b79c34f8ac|e7db33cf12a7c84d|63d131c707281a44|1129988910||t19369.5989858241s|3bdf578d7e4b7fcf|130036|rds|local|vector|||0.057||
+outlier_plot|stem|05de39227de55690|e7db33cf12a7c84d|c81b8a94697a97c1|-440055829||t19369.5936977467s|c4b6e336494f111c|130249|rds|local|vector|||0.063||
+outlier_pointplot|stem|ea6ad7f19f54eb3e|f7185f8c7b1c1779|766b48bd17d301fb|-7367824||t19369.5989846678s|f3f4c15b8c320c75|111230|rds|local|vector|||0.01||
+outliers_charges|stem|43690678ecbec977|9db46dd959e8f6da|e8d487986547d395|-69682404||t19369.5989837112s|516add64eb77b445|14734|rds|local|vector|||0.008||
+temp_df|stem|006a9ba5b99407bf|22de6c2514975b2f|1371d75c6767b3a7|591053249||t19369.5989841356s|85806ce84783e771|16843|rds|local|vector|||0.004||
