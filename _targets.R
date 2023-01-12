@@ -16,12 +16,12 @@ list(
   tar_target(outlier_bool_array ,is_out_mad(insurance_data$charges , thres = 4)),
   
   
-  tar_target(temp_df , insurance_data %>% mutate(charges_out = as.factor(outlier_bool_array))),
+  tar_target(temp_df , insurance_data %>% mutate(charges_outliers = as.factor(outlier_bool_array))),
   
-  tar_target(outlier_boxplot ,  get_plot(df = temp_df ,column2= charges,fill_color = charges_out, plot_func =  ggplot2::geom_boxplot)),
+  tar_target(outlier_boxplot ,  get_plot(df = temp_df ,column2= charges,fill_color = charges_outliers, plot_func =  ggplot2::geom_boxplot)),
   
   tar_target(outlier_pointplot ,  get_plot(df = temp_df, column1 = age,
-                                           column2= charges,fill_color = charges_out, plot_func =  ggplot2::geom_point))
+                                           column2= charges,fill_color = charges_outliers, plot_func =  ggplot2::geom_point))
              
 )
 
