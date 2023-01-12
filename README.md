@@ -1,23 +1,29 @@
-# WS22RAP
+#### Author: Manasvi Ponaka
 
-### Author: Manasvi Ponaka
-### Student ID: 0211207542
-### Course : Workshop-II
+#### Student ID: 0211207542
+
+#### Course : Workshop-II
+
 Email: Manasvi.ponaka.001@student.uni.lu
 
 To run this pipeline, you will have to simply:
 
-..1.Clone the repository by running `git clone git@github.com:manasviponaka/WS22RAP.git`
+..*.Clone the repository by running `git clone git@github.com:manasviponaka/WS22RAP.git`
 
-..2.Some of the functions and data used in this pipeline are hosted in a separate package called [cleanData](https://github.com/manasviponaka/cleanData)
 
-..3.Run renv::restore() to install all the required libraries.
+..*.Some of the functions and data used in this pipeline are hosted in a separate package called [cleanData](https://github.com/manasviponaka/cleanData)
+
+
+..*.Run renv::restore() to install all the required libraries.
 
 ...To install the package independently, run - `remotes::install_github("manasviponaka/cleanData")` in rstudio console
 
+
 ...or Clone the repository by running `git clone git@github.com:manasviponaka/cleanData.git` 
 
-..5.You should now restart your R session and then run the pipeline with `targets::tar_make()`
+
+..*.You should now restart your R session and then run the pipeline with `targets::tar_make()`
+
 
 You can take a look at the data by running:
 
@@ -32,8 +38,8 @@ You can take a look at some plots tables by running:
 
 `targets::tar_read(ageVsCharges)
 
-`targets::tar_read(bmiVsCharges)
+targets::tar_read(bmiVsCharges)
 
-`targets::tar_read(outlier_boxplot)
+targets::tar_read(outlier_boxplot)
 
-`targets::tar_read(outlier_boxplot)`
+targets::tar_read(outlier_boxplot)`
