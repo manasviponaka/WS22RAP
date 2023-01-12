@@ -8,7 +8,7 @@ Email: Manasvi.ponaka.001@student.uni.lu
 
 To run this pipeline, you will have to simply:
 
-⋅⋅* Clone the repository by running `git clone git@github.com:manasviponaka/WS22RAP.git`
+* Clone the repository by running `git clone git@github.com:manasviponaka/WS22RAP.git`
 
 
 ⋅⋅* Some of the functions and data used in this pipeline are hosted in a separate package called [cleanData](https://github.com/manasviponaka/cleanData)
