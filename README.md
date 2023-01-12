@@ -11,18 +11,18 @@ To run this pipeline, you will have to simply:
 * Clone the repository by running `git clone git@github.com:manasviponaka/WS22RAP.git`
 
 
-⋅⋅* Some of the functions and data used in this pipeline are hosted in a separate package called [cleanData](https://github.com/manasviponaka/cleanData)
+* Some of the functions and data used in this pipeline are hosted in a separate package called [cleanData](https://github.com/manasviponaka/cleanData)
 
 
-⋅⋅* Run renv::restore() to install all the required libraries.
+* Run renv::restore() to install all the required libraries.
 
-⋅⋅⋅   To install the package independently, run - `remotes::install_github("manasviponaka/cleanData")` in rstudio console
-
-
-⋅⋅⋅   or Clone the repository by running `git clone git@github.com:manasviponaka/cleanData.git` 
+⋅⋅⋅To install the package independently, run - `remotes::install_github("manasviponaka/cleanData")` in rstudio console
 
 
-⋅⋅* You should now restart your R session and then run the pipeline with `targets::tar_make()`
+⋅⋅⋅or Clone the repository by running `git clone git@github.com:manasviponaka/cleanData.git` 
+
+
+*You should now restart your R session and then run the pipeline with `targets::tar_make()`
 
 
 You can take a look at the data by running:
